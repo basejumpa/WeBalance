@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "webalance"
+version = "0.1.0"
+description = ""
+authors = ["basejumpa <alexander.mannwahrenberg@gmail.com>"]
+readme = "README.md"
+packages = [{include = "webalance", from = "src"}]
+license = "MIT, CC BY-SA-4.0"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+hx711-multi = "^1.4.1"
+rpi-gpio = "^0.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+webalance = "webalance.main:main"

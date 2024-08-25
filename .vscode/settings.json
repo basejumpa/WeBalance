@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        ".venv/": true,
+        "**/__pycache__/": true,
+        "**/*.pyc": true
+    },
+
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [ 80 ],
+
+    "code-eol.newlineCharacter": "¬",
+    "code-eol.returnCharacter": "¤",
+    "code-eol.crlfCharacter": "¤¬"
+}
