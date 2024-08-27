@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "webalance"
+name = "weposture"
 version = "0.1.0"
 description = ""
 authors = ["basejumpa <alexander.mannwahrenberg@gmail.com>"]
 readme = "README.md"
-packages = [{include = "webalance", from = "src"}]
+packages = [{include = "weposture", from = "src"}]
 license = "MIT, CC BY-SA-4.0"
 
 [tool.poetry.dependencies]
@@ -17,4 +17,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-webalance = "webalance.main:main"
+weposture = "weposture.main:main"
